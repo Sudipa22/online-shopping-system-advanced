@@ -4,7 +4,7 @@ pipeline{
      stage ('build & test'){
             steps{
                
-                    sh "mvn clean install"
+                    sh "composer install"
                
             }
         }
